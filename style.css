@@ -1,0 +1,66 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.todo-app {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.todo-app h2 {
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu';
+}
+
+.area {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: bisque;
+
+}
+
+input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+button {
+    width: 60px;
+    height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 10px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: azure;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+
+
+
+}
+
+
+ul li {
+    list-style: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
